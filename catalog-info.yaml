@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "wills-js-app-1234"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-05"
+    "humanitec.com/appId": "wills-js-app-1234"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
